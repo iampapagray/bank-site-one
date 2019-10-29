@@ -1,0 +1,31 @@
+RewriteEngine On    # Turn on the rewriting engine
+
+RewriteRule    ^personal-banking/?$    personal.php   [NC] 
+RewriteRule    ^personal-banking/([a-zA-Z-]+)/$    personal.php?tag=$1    [NC] 
+RewriteRule    ^personal-banking/([a-zA-Z-]+)$    personal.php?tag=$1    [NC] 
+
+RewriteRule    ^commercial-banking/?$    commercial.php   [NC] 
+RewriteRule    ^commercial-banking/([a-zA-Z-]+)/$    commercial.php?tag=$1    [NC] 
+RewriteRule    ^commercial-banking/([a-zA-Z-]+)$    commercial.php?tag=$1    [NC] 
+
+RewriteRule    ^loan-services/?$    loans.php   [NC] 
+RewriteRule    ^loan-services/([a-zA-Z-]+)/$    loans.php?tag=$1    [NC] 
+RewriteRule    ^loan-services/([a-zA-Z-]+)$    loans.php?tag=$1    [NC] 
+
+RewriteRule    ^mobile-ebanking/?$    mobile.php   [NC] 
+RewriteRule    ^mobile-ebanking/([a-zA-Z-]+)/$    mobile.php?tag=$1    [NC] 
+RewriteRule    ^mobile-ebanking/([a-zA-Z-]+)$    mobile.php?tag=$1    [NC] 
+
+RewriteRule    ^who-are-we/?$    about.php   [NC] 
+RewriteRule    ^who-are-we/([a-zA-Z-]+)/$    about.php?tag=$1    [NC] 
+RewriteRule    ^who-are-we/([a-zA-Z-]+)$    about.php?tag=$1    [NC] 
+
+RewriteRule    ^our-agencies/?$    branch.php   [NC] 
+RewriteRule    ^our-agencies/([a-zA-Z-]+)/$    branch.php?tag=$1    [NC] 
+RewriteRule    ^our-agencies/([a-zA-Z-]+)$    branch.php?tag=$1    [NC] 
+
+RewriteRule    ^contact-us/?$    contact.php   [NC] 
+
+RewriteRule    ^financial-reports/?$    reports.php   [NC] 
+
+RewriteRule    ^umk-careers/?$    jobs.php   [NC] 

@@ -1,0 +1,13 @@
+purple - HTML code:	#4E5991
+		RGB code:	R: 78 G: 89 B: 145
+		HSV:	230.15° 46.21% 56.86%
+
+
+blue - HTML code:	#4A93CA
+		RGB code:	R: 74 G: 147 B: 202
+		HSV:	205.78° 63.37% 79.22%
+
+
+grey - HTML code:	#9DAAB2
+		RGB code:	R: 157 G: 170 B: 178
+		HSV:	202.86° 11.8% 69.8%
